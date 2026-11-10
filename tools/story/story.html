@@ -1,0 +1,89 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:PM;src:url(gf/apache/permanentmarker/PermanentMarker-Regular.ttf)}
+@font-face{font-family:PH;src:url(gf/ofl/patrickhand/PatrickHand-Regular.ttf)}
+@font-face{font-family:CV;src:url("gf/ofl/caveat/Caveat[wght].ttf");font-weight:400 700}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#C9AE86}
+.a{position:absolute}
+#bg{left:0;top:0;width:1080px;height:1920px}
+#page{left:60px;top:150px;width:960px;height:1640px;background:#FBF8F1;transform:rotate(-.7deg);box-shadow:0 22px 40px rgba(50,30,5,.38),0 4px 8px rgba(50,30,5,.2)}
+#tape{left:420px;top:118px;width:240px;height:62px;background:rgba(236,226,190,.85);transform:rotate(-3deg);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.mk{font-family:PM;color:#22263F}.ph{font-family:PH;color:#22263F}.cv{font-family:CV;font-weight:700}
+#kick{left:150px;top:250px;font-size:58px;color:#C8423B;transform-origin:left center}
+#nv{left:0;width:1080px;top:325px;text-align:center;font-size:132px;line-height:1;transform-origin:center}
+#hl{left:215px;top:395px;width:650px;height:80px;background:#FFD84D;border-radius:14px;transform:rotate(-1.5deg);transform-origin:left center}
+#lap{left:110px;top:620px;width:860px}
+#bezel{left:0;top:0;width:860px;height:510px;background:#1D1F2B;border-radius:28px;box-shadow:0 18px 30px rgba(0,0,0,.35)}
+#scr{left:22px;top:22px;width:816px;height:459px;border-radius:10px;overflow:hidden;background:#000}
+#base{left:-40px;top:505px;width:940px;height:36px;background:linear-gradient(#cfd2da,#9ea2ad);border-radius:0 0 30px 30px}
+#notch{left:370px;top:505px;width:120px;height:12px;background:#80848f;border-radius:0 0 10px 10px}
+/* thumbnail (16:9) drawn inside the screen */
+#th{left:0;top:0;width:816px;height:459px;background:#C9AE86}
+#thp{left:14px;top:14px;width:788px;height:431px;background:#FBF8F1;transform:rotate(-.6deg);
+ background-image:repeating-linear-gradient(#FBF8F1 0 28px,#BFD3EA 28px 30px)}
+#play{left:358px;top:300px;width:100px;height:70px;background:#FF0033;border-radius:20px;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+#play:after{content:"";position:absolute;left:40px;top:20px;border-left:28px solid #fff;border-top:16px solid transparent;border-bottom:16px solid transparent}
+#bar{left:0;top:451px;width:816px;height:8px;background:rgba(255,255,255,.35)}
+#barf{left:0;top:451px;height:8px;background:#FF0033}
+#dur{left:742px;top:418px;background:rgba(0,0,0,.8);color:#fff;font:600 22px Arial;padding:2px 8px;border-radius:5px}
+#title{left:120px;top:1225px;width:840px;font-size:66px;line-height:1.12;text-align:center}
+#sub{left:0;width:1080px;top:1385px;text-align:center;font-size:52px;color:#2E7D4F}
+#sticky{left:300px;top:1500px;width:480px;height:170px;background:#FFD84D;box-shadow:0 10px 18px rgba(60,40,0,.3);transform-origin:center}
+#sticky div{width:100%;text-align:center}
+#arrow{left:0;top:0}
+</style></head><body>
+<canvas id="bg" class="a" width="1080" height="1920"></canvas>
+<div id="page" class="a"><svg width="960" height="1640">
+ <g id="lines"></g><line x1="70" x2="70" y1="0" y2="1640" stroke="#E79C9C" stroke-width="3"/>
+ <circle cx="34" cy="300" r="16" fill="#2a2a2a"/><circle cx="34" cy="820" r="16" fill="#2a2a2a"/><circle cx="34" cy="1340" r="16" fill="#2a2a2a"/></svg></div>
+<div id="tape" class="a"></div>
+<div id="kick" class="a cv">just dropped on YouTube &#9654;</div>
+<div id="hl" class="a"></div>
+<div id="nv" class="a mk">NEW VIDEO</div>
+<div id="lap" class="a">
+ <div id="bezel" class="a"><div id="scr" class="a">
+  <div id="th" class="a"><div id="thp" class="a">
+   <div class="a mk" style="left:40px;top:34px;font-size:56px;line-height:1.15">YOUR SAVINGS<br>COULD EARN</div><div class="a mk" style="left:40px;top:180px;font-size:92px;line-height:1.1;background:#FFD84D;padding:0 14px;color:#2E7D4F">MORE</div>
+   <div class="a" style="left:520px;top:300px;width:44px;height:8px;background:#E0574F;border:3px solid #22263F"></div>
+   <div class="a" style="left:620px;top:110px;width:110px;height:198px;background:#B9E3A8;border:4px solid #22263F;border-radius:6px"></div>
+   <div class="a mk" style="left:490px;top:250px;font-size:30px;color:#C8423B">0.01%</div>
+   <div class="a mk" style="left:612px;top:40px;font-size:30px;line-height:1;color:#2E7D4F;text-align:center">higher<br>APY</div>
+   <div class="a ph" style="left:560px;top:330px;font-size:22px;color:#777">rates vary</div>
+  </div></div>
+  <div id="dim" class="a" style="left:0;top:0;width:816px;height:459px;background:#000"></div>
+  <div id="play" class="a"></div>
+  <div id="bar" class="a"></div><div id="barf" class="a"></div>
+  <div id="dur" class="a">2:16</div>
+ </div></div>
+ <div id="base" class="a"></div><div id="notch" class="a"></div>
+</div>
+<div id="title" class="a ph">High-Yield Savings Accounts Explained</div>
+<div id="sub" class="a cv">Out now &middot; new lesson every day</div>
+<div id="sticky" class="a"><div class="mk" style="font-size:54px;margin-top:22px">TAP THE LINK</div><div class="cv" style="font-size:46px;color:#22263F">to watch the full lesson &#8595;</div></div>
+<script>
+const L=document.getElementById('lines');let s='';for(let y=90;y<1640;y+=52)s+=`<line x1="0" x2="960" y1="${y}" y2="${y}" stroke="#BFD3EA" stroke-width="2"/>`;L.innerHTML=s;
+const c=document.getElementById('bg').getContext('2d');const im=c.createImageData(1080,1920);let seed=7;function r(){seed=(seed*16807)%2147483647;return seed/2147483647}
+for(let i=0;i<im.data.length;i+=4){const n=(r()-.5)*16;im.data[i]=201+n;im.data[i+1]=174+n;im.data[i+2]=134+n;im.data[i+3]=255}c.putImageData(im,0,0);
+const $=id=>document.getElementById(id);
+const cl=(x)=>Math.max(0,Math.min(1,x)), eo=t=>1-Math.pow(1-t,3), ei=t=>t*t;
+function back(t){const s=1.7;t=t-1;return t*t*((s+1)*t+s)+1}
+function render(t){
+ // NEW VIDEO slams in
+ let p=cl((t-0.25)/0.35);$('nv').style.opacity=p?1:0;$('nv').style.transform=`scale(${1.6-0.6*ei(p)}) rotate(${-4+2*p}deg)`;
+ let h=cl((t-0.6)/0.3);$('hl').style.transform=`rotate(-1.5deg) scaleX(${eo(h)})`;
+ let k=cl((t-0.05)/0.35);$('kick').style.opacity=k;$('kick').style.transform=`translateX(${-60*(1-eo(k))}px)`;
+ // laptop slides up
+ let l=cl((t-0.9)/0.5);$('lap').style.transform=`translateY(${500*(1-eo(l))}px)`;$('lap').style.opacity=l>0?1:0;
+ // screen turns on
+ let on=cl((t-1.45)/0.35);$('dim').style.opacity=1-on;
+ let pl=cl((t-1.85)/0.3);$('play').style.transform=`scale(${pl?back(pl):0})`;
+ $('barf').style.width=(816*cl((t-2.0)/5.0)*0.35)+'px';$('dur').style.opacity=on;
+ // title + sub
+ let ti=cl((t-2.3)/0.45);$('title').style.opacity=ti;$('title').style.transform=`translateX(${-60*(1-eo(ti))}px)`;
+ let su=cl((t-2.8)/0.4);$('sub').style.opacity=su;$('sub').style.transform=`translateX(${-60*(1-eo(su))}px)`;
+ // sticky drops in on the boom (same move as the money reels)
+ let st=cl((t-4.05)/0.25),e2=st*st;$('sticky').style.opacity=t<4.05?0:(0.35+0.65*cl(st*1.6));
+ $('sticky').style.transform=`translate(${-110*(1-e2)}px,${-130*(1-e2)}px) scale(${1.28-0.28*e2}) rotate(${2+5*(1-e2)}deg)`;
+}
+render(0);
+</script></body></html>
