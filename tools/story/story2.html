@@ -1,0 +1,85 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:PM;src:url(gf/apache/permanentmarker/PermanentMarker-Regular.ttf)}
+@font-face{font-family:PH;src:url(gf/ofl/patrickhand/PatrickHand-Regular.ttf)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#FFD23F}
+.a{position:absolute}.mk{font-family:PM;color:#1F2340}
+#bg{left:0;top:0}
+.w{display:inline-block;transform-origin:center bottom}
+#h1{left:0;top:240px;width:1080px;text-align:center;font-size:96px;line-height:1.15;white-space:nowrap}
+#zig{left:0}
+#pct{left:60px;top:700px;font-size:200px;color:#1E8A43;line-height:1;transform-origin:center}
+#apy{left:80px;top:885px;font-size:84px;color:#1E8A43;transform-origin:center}
+#vs{left:70px;top:630px;font-size:46px;color:#C8423B;transform-origin:left center}
+#lap{left:430px;top:600px;width:600px;height:520px}
+#scr{left:40px;top:28px;width:520px;height:330px;background:#FBF8F1;border-radius:4px;overflow:hidden;
+ background-image:repeating-linear-gradient(#FBF8F1 0 22px,#BFD3EA 22px 24px)}
+#dim{left:40px;top:28px;width:520px;height:330px;background:#0b0c12}
+#play{left:225px;top:135px;width:92px;height:64px;background:#FF0033;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,.3)}
+#play:after{content:"";position:absolute;left:36px;top:18px;border-left:26px solid #fff;border-top:14px solid transparent;border-bottom:14px solid transparent}
+#b1{left:64px;top:262px;width:96px;height:10px;background:#E0574F;border:3px solid #1F2340;border-radius:3px}
+#b2{left:400px;top:70px;width:110px;height:210px;background:#B9E3A8;border:4px solid #1F2340;border-radius:6px;transform-origin:bottom}
+#prog{left:40px;top:352px;height:6px;background:#FF0033}
+#ban{left:50px;top:1200px;width:980px;height:270px;background:#1F2340;transform:rotate(-1.5deg);box-shadow:0 10px 20px rgba(0,0,0,.18)}
+#ban div{color:#fff;font-size:80px;line-height:1.12;text-align:center;margin-top:28px;white-space:nowrap}
+#cta{left:230px;top:1545px;width:620px;height:132px;background:#fff;border-radius:66px;box-shadow:0 10px 22px rgba(0,0,0,.2);transform-origin:center}
+#cta span{position:absolute;left:52px;top:30px;font:900 60px Arial Black,Arial;color:#1F2340;letter-spacing:1px}
+#cta i{position:absolute;right:28px;top:22px;width:88px;height:88px;border-radius:50%;background:#1F2340}
+#cta i:after{content:"";position:absolute;left:34px;top:24px;border-left:30px solid #fff;border-top:20px solid transparent;border-bottom:20px solid transparent}
+#note{left:0;width:1080px;top:1700px;text-align:center;font-family:PH;font-size:34px;color:#5a4a10}
+</style></head><body>
+<canvas id="bg" class="a" width="1080" height="1920"></canvas>
+<div id="h1" class="a mk"><span class="w" id="w1">YOUR</span> <span class="w" id="w2">SAVINGS</span><br><span class="w" id="w3">COULD</span> <span class="w" id="w4">EARN</span> <span class="w" id="w5" style="color:#1E8A43">MORE!</span></div>
+<svg id="zig" class="a" width="1080" height="800" style="top:540px"><path id="zp" d="M -10 700 L 110 590 L 190 660 L 300 520 L 355 545 L 405 130" fill="none" stroke="#1F2340" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="zh" d="M 360 165 L 407 120 L 440 175" fill="none" stroke="#1F2340" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div id="vs" class="a mk">0.01% &rarr;</div>
+<div id="pct" class="a mk">4%</div>
+<div id="apy" class="a mk">APY*</div>
+<div id="lap" class="a">
+ <svg class="a" width="600" height="520" style="left:0;top:0">
+  <defs><linearGradient id="al" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#e9ebef"/><stop offset="1" stop-color="#a9adb6"/></linearGradient></defs>
+  <rect x="18" y="6" width="564" height="372" rx="20" fill="#16181f"/>
+  <circle cx="300" cy="17" r="4" fill="#333"/>
+  <path d="M 10 380 L 590 380 L 600 420 Q 600 432 588 432 L 12 432 Q 0 432 0 420 Z" fill="url(#al)"/>
+  <rect x="250" y="380" width="100" height="10" rx="5" fill="#8e929b"/>
+ </svg>
+ <div id="scr" class="a"><div class="a" style="left:22px;top:0;width:3px;height:330px;background:#E79C9C"></div>
+  <div class="a mk" style="left:40px;top:278px;font-size:34px;color:#C8423B">0.01%</div>
+  <div class="a mk" style="left:200px;top:280px;font-size:30px">vs</div>
+  <div class="a mk" style="left:410px;top:288px;font-size:34px;color:#1E8A43">4%</div>
+  <div class="a mk" style="left:300px;top:20px;font-size:26px;color:#1E8A43">higher APY &rarr;</div>
+ </div>
+ <div id="b1" class="a" style="left:104px;top:290px"></div>
+ <div id="b2" class="a" style="left:440px;top:92px;height:200px"></div>
+ <div id="dim" class="a"></div>
+ <div id="play" class="a" style="left:265px;top:150px"></div>
+ <div id="prog" class="a" style="top:352px"></div>
+</div>
+<div id="ban" class="a"><div class="mk" style="color:#fff">HIGH-YIELD SAVINGS<br>ACCOUNTS EXPLAINED</div></div>
+<div id="cta" class="a"><span>WATCH NOW!</span><i></i></div>
+<div id="note" class="a">*Example rate. Rates vary and can change.</div>
+<script>
+const c=document.getElementById('bg').getContext('2d');const g=c.createRadialGradient(540,800,100,540,900,1200);g.addColorStop(0,'#FFDB55');g.addColorStop(1,'#F7C21E');c.fillStyle=g;c.fillRect(0,0,1080,1920);
+const $=id=>document.getElementById(id),cl=x=>Math.max(0,Math.min(1,x)),eo=t=>1-Math.pow(1-t,3);
+function back(t){const s=1.9;t=t-1;return t*t*((s+1)*t+s)+1}
+const zp=$('zp'),zl=zp.getTotalLength(),zh=$('zh'),hl=zh.getTotalLength();zp.style.strokeDasharray=zl;zh.style.strokeDasharray=hl;
+function pop(el,t0,t,dur=.28){const p=cl((t-t0)/dur);el.style.opacity=p>0?1:0;el.style.transform=`scale(${p?back(p):0})`}
+function render(t){
+ ['w1','w2','w3','w4','w5'].forEach((w,i)=>{const p=cl((t-0.1-i*0.16)/0.22);const e=$(w);e.style.opacity=p>0?1:0;e.style.transform=`scale(${1.7-0.7*eo(p)}) rotate(${(1-p)*-6}deg)`});
+ zp.style.strokeDashoffset=zl*(1-eo(cl((t-0.95)/0.9)));zh.style.strokeDashoffset=hl*(1-cl((t-1.8)/0.15));
+ let v=cl((t-1.0)/0.3);$('vs').style.opacity=v;$('vs').style.transform=`translateX(${-60*(1-eo(v))}px)`;
+ pop($('pct'),1.25,t,.35);pop($('apy'),1.55,t);
+ let l=cl((t-1.45)/0.5);$('lap').style.transform=`translateX(${600*(1-eo(l))}px)`;
+ $('dim').style.opacity=1-cl((t-1.95)/0.3);
+ let pl=cl((t-2.2)/0.3);$('play').style.transform=`scale(${pl?back(pl):0})`;
+ $('b2').style.transform=`scaleY(${eo(cl((t-2.35)/0.6))})`;$('b1').style.opacity=cl((t-2.3)/0.2);
+ $('prog').style.width=(520*0.4*cl((t-2.4)/4.6))+'px';
+ let b=cl((t-2.9)/0.45);$('ban').style.transform=`rotate(-1.5deg) translateX(${-1100*(1-eo(b))}px)`;
+ $('note').style.opacity=cl((t-3.4)/0.4);
+ // Watch Now drops in on the boom, then pulses
+ let s=cl((t-4.05)/0.25),e2=s*s;$('cta').style.opacity=t<4.05?0:(0.35+0.65*cl(s*1.6));
+ let pulse=t>4.6?1+0.04*Math.sin((t-4.6)*6.5):1;
+ $('cta').style.transform=`translate(${-90*(1-e2)}px,${-120*(1-e2)}px) scale(${(1.28-0.28*e2)*pulse}) rotate(${4*(1-e2)}deg)`;
+}
+render(0);
+</script></body></html>
