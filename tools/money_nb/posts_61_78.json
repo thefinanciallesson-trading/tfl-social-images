@@ -1,0 +1,145 @@
+[
+{"id":"61","kicker":"Find the money you forgot you spend","t1":"SUBSCRIPTION","t2":"AUDIT","icon":"receipt","kind":"steps",
+ "intro":"<b>15 minutes.</b> Two bank statements. One highlighter.",
+ "items":[
+  {"n":"1","h":"PULL 2 MONTHS","p":"Open your last two statements and highlight every charge that repeats."},
+  {"n":"2","h":"SORT THEM","p":"Love it. Use it. Forgot it existed."},
+  {"n":"3","h":"CANCEL THE FORGOTTEN","p":"Do it today, before the next billing date."}],
+ "tip":{"h":"THE MATH","p":"$15 a month you never use is $180 a year."}},
+
+{"id":"62","kicker":"Why a raise can leave you just as broke","t1":"LIFESTYLE","t2":"CREEP","icon":"cart","kind":"rows",
+ "intro":"<b>Spending rises to meet income</b> unless you decide first. Try the half rule on a $300 raise:",
+ "items":[
+  {"big":"+$300","sm":"raise a month","c":"blue","rb":"New money","rs":"decide before it hits your account"},
+  {"big":"$150","sm":"to savings","c":"green","w":150,"fill":"#BFE9B0","rb":"Future you","rs":"auto-transfer on payday"},
+  {"big":"$150","sm":"to enjoy","c":"red","w":150,"fill":"#FFDD45","rb":"Today you","rs":"guilt-free"}],
+ "tip":{"h":"MAKE IT AUTOMATIC","p":"Raise your savings transfer the same week the raise starts."}},
+
+{"id":"63","kicker":"How credit cards can cost you $0 in interest","t1":"THE GRACE","t2":"PERIOD","icon":"card","kind":"rows",
+ "intro":"The time between your statement and the due date. <b>Pay the full statement balance</b> by the due date and new purchases usually cost no interest.",
+ "items":[
+  {"big":"FULL","sm":"statement balance","c":"green","rb":"$0 interest","rs":"on purchases, on most cards"},
+  {"big":"MINIMUM","sm":"payment only","c":"red","rb":"Interest grows","rs":"and you can lose the grace period"},
+  {"big":"CASH","sm":"advance","c":"red","rb":"No grace period","rs":"interest usually starts right away"}],
+ "tip":{"h":"ONE HABIT","p":"Set autopay for the statement balance, not the minimum."}},
+
+{"id":"64","kicker":"Pay in 4 sounds easy. Read this first","t1":"BUY NOW,","t2":"PAY LATER","icon":"cart","kind":"steps",
+ "intro":"Split a purchase into payments. <b>Handy, but easy to stack.</b>",
+ "items":[
+  {"n":"1","h":"IT ADDS UP FAST","p":"4 plans at once means 16 payments to track."},
+  {"n":"2","h":"FEES CAN APPLY","p":"Late fees, and some plans charge interest."},
+  {"n":"3","h":"IT CAN HURT YOUR CREDIT","p":"Missed payments may be reported or sent to collections."}],
+ "tip":{"h":"THE RULE","p":"Only use it if you could pay the full price today."}},
+
+{"id":"65","kicker":"Decide the number before the stores do","t1":"HOLIDAY","t2":"SPENDING PLAN","icon":"gift","kind":"steps",
+ "intro":"<b>No plan</b> is how January credit card bills happen.",
+ "items":[
+  {"n":"1","h":"PICK ONE TOTAL","p":"Gifts, food, travel, decor. One number for all of it."},
+  {"n":"2","h":"SPLIT IT BY PERSON","p":"Write a name and a dollar cap next to each one."},
+  {"n":"3","h":"TRACK EVERY BUY","p":"Subtract as you go so you always know what is left."}],
+ "tip":{"h":"NEXT YEAR, EASIER","p":"Start a holiday fund in January: $600 / 12 = $50 a month."}},
+
+{"id":"66","kicker":"Black Friday is designed to rush you","t1":"DEAL","t2":"OR NOT?","icon":"receipt","kind":"steps",
+ "intro":"Ask these <b>before</b> you hit buy:",
+ "items":[
+  {"n":"1","h":"WAS IT ON MY LIST?","p":"If you wanted it last week, it might be a real deal."},
+  {"n":"2","h":"IS IT REALLY LOWER?","p":"Check the price history, not the crossed-out price."},
+  {"n":"3","h":"CAN I PAY IN FULL TODAY?","p":"A sale on a credit card you carry is not a sale."}],
+ "tip":{"h":"THE 24-HOUR CART","p":"Leave it in the cart overnight. Still want it tomorrow? Then decide."}},
+
+{"id":"67","kicker":"The fee that hits when you have the least","t1":"OVERDRAFT","t2":"FEES","icon":"bank","kind":"steps",
+ "intro":"Your bank covers a charge you could not afford, then <b>charges you for it.</b>",
+ "items":[
+  {"n":"1","h":"TURN ON ALERTS","p":"Get a text when your balance drops below $100."},
+  {"n":"2","h":"CHECK YOUR SETTINGS","p":"Ask your bank to decline debit card purchases instead of covering them for a fee."},
+  {"n":"3","h":"LINK A BACKUP","p":"Connect savings to cover a shortfall. Ask about any transfer fee."}],
+ "tip":{"h":"BUILD A BUFFER","p":"Keep a small cushion in checking that you treat as zero."}},
+
+{"id":"68","kicker":"Lock it in, let it earn","t1":"CDs","t2":"EXPLAINED","icon":"bank","kind":"rows",
+ "intro":"A <b>certificate of deposit</b> holds your money for a set time at a set rate.",
+ "items":[
+  {"big":"TERM","sm":"you choose","c":"blue","rb":"3 months to 5 years","rs":"longer terms often pay more"},
+  {"big":"RATE","sm":"fixed","c":"green","rb":"Locked in","rs":"it will not drop if rates fall"},
+  {"big":"EARLY","sm":"withdrawal","c":"red","rb":"Penalty","rs":"you usually give up some interest"}],
+ "tip":{"h":"SAFETY","p":"Bank CDs are FDIC insured up to $250,000 per depositor, per bank, per ownership type."}},
+
+{"id":"69","kicker":"Lending money to the government","t1":"TREASURY","t2":"BILLS","icon":"bank","kind":"rows",
+ "intro":"<b>T-bills</b> are short-term loans to the U.S. government.",
+ "items":[
+  {"big":"4-52","sm":"weeks","c":"blue","rb":"Short terms","rs":"your cash comes back soon"},
+  {"big":"BUY","sm":"below face value","c":"green","rb":"Get the full amount","rs":"the difference is your interest"},
+  {"big":"TAX","sm":"perk","c":"green","rb":"No state income tax","rs":"federal tax still applies"}],
+ "tip":{"h":"WHERE TO BUY","p":"TreasuryDirect.gov or most brokerage accounts."}},
+
+{"id":"70","kicker":"Every dollar needs the right home","t1":"WHERE TO","t2":"KEEP CASH","icon":"piggy","kind":"rows",
+ "intro":"<b>Match the account to the job.</b>",
+ "items":[
+  {"big":"CHECKING","sm":"","c":"blue","rb":"Bills + spending","rs":"in and out every day"},
+  {"big":"HIGH-YIELD","sm":"savings","c":"green","rb":"Emergency fund","rs":"easy to reach, earns more"},
+  {"big":"CD","sm":"","c":"red","rb":"Money with a date","rs":"you will not touch it for a while"}],
+ "tip":{"h":"CHECK THE RATE","p":"If your savings earns almost nothing, compare a few online banks."}},
+
+{"id":"71","kicker":"Generous without the January regret","t1":"GIFT","t2":"BUDGET","icon":"gift","kind":"rows",
+ "intro":"Example: <b>$400 total</b> for the season.",
+ "items":[
+  {"big":"$160","sm":"2 kids","c":"green","w":220,"bh":90,"fill":"#BFE9B0","rb":"$80 each","rs":""},
+  {"big":"$160","sm":"4 family","c":"blue","w":220,"bh":90,"fill":"#A9DDF7","rb":"$40 each","rs":""},
+  {"big":"$80","sm":"friends + extras","c":"red","w":110,"bh":90,"fill":"#FFDD45","rb":"Flexible","rs":""}],
+ "tip":{"h":"STRETCH IT","p":"Experiences, homemade, or a family gift swap."}},
+
+{"id":"72","kicker":"Investing on autopilot","t1":"TARGET-DATE","t2":"FUNDS","icon":"chart","kind":"steps",
+ "intro":"One fund that <b>adjusts itself</b> as you get older.",
+ "items":[
+  {"n":"1","h":"PICK YOUR YEAR","p":"Choose the fund closest to the year you plan to retire."},
+  {"n":"2","h":"IT SHIFTS OVER TIME","p":"More stocks while you are young. More bonds as the date gets close."},
+  {"n":"3","h":"CHECK THE FEE","p":"Look for a low expense ratio. Fees add up over decades."}],
+ "tip":{"h":"KEEP IT SIMPLE","p":"It is built to be your whole mix. Stacking extra funds can undo the balance."}},
+
+{"id":"73","kicker":"The number lenders check first","t1":"DEBT-TO-","t2":"INCOME","icon":"receipt","kind":"rows",
+ "intro":"<b>Monthly debt payments / gross monthly income.</b>",
+ "items":[
+  {"big":"$1,500","sm":"debt payments","c":"red","rb":"Car + cards + loans","rs":"plus rent or mortgage"},
+  {"big":"$5,000","sm":"gross income","c":"blue","rb":"Before taxes","rs":""},
+  {"big":"30%","sm":"your ratio","c":"green","rb":"$1,500 / $5,000","rs":"many lenders prefer 36% or less"}],
+ "tip":{"h":"LOWER IT","p":"Pay down a balance, or avoid new debt before you apply."}},
+
+{"id":"74","kicker":"A breather from high interest, if you use it right","t1":"BALANCE","t2":"TRANSFERS","icon":"card","kind":"steps",
+ "intro":"Move a high-interest balance to a card with a <b>0% intro rate.</b>",
+ "items":[
+  {"n":"1","h":"KNOW THE FEE","p":"Often 3% to 5% of what you move."},
+  {"n":"2","h":"KNOW THE END DATE","p":"Divide the balance by the months left. Pay that every month."},
+  {"n":"3","h":"STOP USING THE OLD CARD","p":"New spending refills the hole you are climbing out of."}],
+ "tip":{"h":"WATCH OUT","p":"When the intro period ends, the regular rate applies to what is left."}},
+
+{"id":"75","kicker":"Before you pay that medical bill","t1":"ASK THESE","t2":"3 THINGS","icon":"shield","kind":"steps",
+ "intro":"Medical bills can have <b>mistakes</b>, and many are negotiable.",
+ "items":[
+  {"n":"1","h":"ITEMIZED BILL, PLEASE","p":"See every charge. Look for duplicates or things you did not get."},
+  {"n":"2","h":"DOES IT MATCH MY EOB?","p":"Compare it to your insurer's explanation of benefits."},
+  {"n":"3","h":"IS THERE HELP?","p":"Ask about financial assistance and a no-interest payment plan."}],
+ "tip":{"h":"SLOW DOWN","p":"Ask before putting it on a credit card. The provider's plan may cost less."}},
+
+{"id":"76","kicker":"The calmest way to pay bills","t1":"LIVE ON LAST","t2":"MONTH'S PAY","icon":"calendar","kind":"steps",
+ "intro":"Stop waiting for payday to pay bills. <b>Get one month ahead.</b>",
+ "items":[
+  {"n":"1","h":"BUILD THE BUFFER","p":"Save one month of expenses in checking, a little at a time."},
+  {"n":"2","h":"PAY THIS MONTH WITH LAST MONTH","p":"Bills come from the buffer, not the paycheck you are waiting on."},
+  {"n":"3","h":"REFILL IT","p":"Each new paycheck refills the buffer for next month."}],
+ "tip":{"h":"WHY IT HELPS","p":"Due dates stop lining up with stress."}},
+
+{"id":"77","kicker":"Do these before December 31","t1":"YEAR-END","t2":"MONEY CHECK","icon":"calendar","kind":"steps",
+ "intro":"<b>Four quick wins</b> before the year closes.",
+ "items":[
+  {"n":"1","h":"RETIREMENT","p":"401(k) contributions count for the year they come out of your paycheck."},
+  {"n":"2","h":"USE YOUR FSA","p":"Many plans are use-it-or-lose-it. Check your deadline."},
+  {"n":"3","h":"CHECK YOUR CREDIT","p":"Free reports at AnnualCreditReport.com."}],
+ "tip":{"h":"BONUS","p":"Review who is listed as beneficiary on your accounts."}},
+
+{"id":"78","kicker":"Make January money run itself","t1":"SET IT","t2":"ONCE","icon":"calendar","kind":"steps",
+ "intro":"Willpower runs out. <b>Automation does not.</b>",
+ "items":[
+  {"n":"1","h":"SAVE ON PAYDAY","p":"Auto-transfer to savings the day your paycheck lands."},
+  {"n":"2","h":"AUTOPAY BILLS","p":"At least the minimum, so nothing is ever late."},
+  {"n":"3","h":"AUTO-INVEST","p":"Set a monthly amount for your retirement account."}],
+ "tip":{"h":"15 MINUTES A MONTH","p":"Put one money check-in on your calendar."}}
+]
