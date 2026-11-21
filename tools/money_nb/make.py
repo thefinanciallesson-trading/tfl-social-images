@@ -76,7 +76,7 @@ def animate(d, n, out):
     start, dur_in, POP = 0.45, 0.38, 4.05
     step = (3.45 - start) / max(1, len(groups) - 2)
     times = [start + i * step for i in range(len(groups) - 1)] + [POP]
-    CW, CH = 1080, 1920; TAN = (201, 174, 134)
+    CW, CH = 1080, 1920; TAN = (205, 179, 143)
     bg = Image.new('RGB', (CW, CH), TAN)
     noise = np.random.RandomState(4).rand(CH, CW, 1) * 14 - 7
     bg = Image.fromarray(np.clip(np.asarray(bg).astype(np.float32) + noise, 0, 255).astype(np.uint8))
